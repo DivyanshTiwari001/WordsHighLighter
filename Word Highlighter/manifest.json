@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Word HighLighter",
+    "version": "1.0",
+    "description": "searching keywords made easy",
+    "content_scripts":[
+      {
+        "js":["./index.js"],
+        "matches":[
+          "https://en.wikipedia.org/wiki/*"
+        ]
+
+      }
+    ]
+  }
